@@ -22,8 +22,12 @@
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2"
   },
+ 
+  
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
