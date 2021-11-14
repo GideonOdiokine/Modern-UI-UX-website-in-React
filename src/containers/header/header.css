@@ -72,5 +72,6 @@
 }
 
 .gpt3__header-content__people {
+    width: 100%;
     display: flex;
 }
